@@ -1,0 +1,20 @@
+____________________________
+│ macOS Installation Steps │
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  ├── Choose system language
+  ├── Accept License Agreement and continue
+  ├── When prompted to select a disk for installation:
+  │   ├── From the menu bar, select `Utilities > Disk Utility`
+  │   ├── Select `VBOX HARDDISK Media` from the Finder
+  │   ├── Press the `Erase` button
+  │   ├── Rename the disk
+  │   ├── Select the `Mac OS Extended (Journaled)` format
+  │   ├── Select the `GUID Partition Map` scheme
+  │   └── Confirm erasing the drive
+  ├── Close `Disk Utility` and return to main installation page
+  ├── Select new disk and install (this may take up to 30 minutes)
+  ├── Upon successful installation, complete new macOS setup steps
+  │   └── Opt out of options such as Location Services, diagnostics, and telemetry
+  ├── Before proceeding, use VirtualBox's Snapshot tool to save the current state
+  │   of this fresh install for later sessions (thus avoiding having to reinstall)
+  └── Enjoy your new macOS virtual machine!
